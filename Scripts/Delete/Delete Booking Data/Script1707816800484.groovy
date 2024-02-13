@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('Insert Booking Baru'))
+WebUI.callTestCase(findTestCase('Get/Get Token'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WS.verifyResponseStatusCode(response, 200)
+WS.sendRequest(findTestObject('Delete Booking Baru', [('idbooking') : GlobalVariable.idbooking]))
 

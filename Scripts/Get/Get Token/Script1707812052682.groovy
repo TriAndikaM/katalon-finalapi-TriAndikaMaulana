@@ -22,5 +22,3 @@ response = WS.sendRequest(findTestObject('Insert Auth'))
 String token = WS.getElementPropertyValue(response, "token")
 
 GlobalVariable.token = token
-
-println(token)
