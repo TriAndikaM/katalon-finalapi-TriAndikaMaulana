@@ -11,7 +11,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;firstname\&quot; : \&quot;Rizky\&quot;,\n    \&quot;lastname\&quot; : \&quot;Kurnia\&quot;,\n    \&quot;totalprice\&quot; : 18000,\n    \&quot;depositpaid\&quot; : false,\n    \&quot;bookingdates\&quot; : {\n        \&quot;checkin\&quot; : \&quot;2024-01-13\&quot;,\n        \&quot;checkout\&quot; : \&quot;2025-01-15\&quot;\n    },\n    \&quot;additionalneeds\&quot; : \&quot;Extra Clean Room\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;firstname\&quot; : \&quot;Fariz\&quot;,\n    \&quot;lastname\&quot; : \&quot;King\&quot;,\n    \&quot;totalprice\&quot; : 99000,\n    \&quot;depositpaid\&quot; : true,\n    \&quot;bookingdates\&quot; : {\n        \&quot;checkin\&quot; : \&quot;2024-01-18\&quot;,\n        \&quot;checkout\&quot; : \&quot;2025-01-19\&quot;\n    },\n    \&quot;additionalneeds\&quot; : \&quot;King Room\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -57,6 +57,10 @@ import internal.GlobalVariable as GlobalVariable
 
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
-ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
+
+WS.verifyResponseStatusCode(response, 200)
+
+assertThat(response.getStatusCode()).isEqualTo(200)</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
