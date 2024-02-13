@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>E%%Training BRI%Bootcamp IT%Katalon Automation Testing%Automation Project%katalon-finalapi-TriAndikaMaulana%katalon-finalapi-TriAndikaMaulana.prj</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.groovy.core.groovyNature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>kat-10762785764702054179.groovy</name>
+			<type>1</type>
+			<location>C:/Users/asus/AppData/Local/Temp/Katalon/Web Services/kat-10762785764702054179.groovy</location>
+		</link>
+		<link>
+			<name>kat-13308087998635997667.groovy</name>
+			<type>1</type>
+			<location>C:/Users/asus/AppData/Local/Temp/Katalon/Web Services/kat-13308087998635997667.groovy</location>
+		</link>
+		<link>
+			<name>kat-1960641226300145239.groovy</name>
+			<type>1</type>
+			<location>C:/Users/asus/AppData/Local/Temp/Katalon/Web Services/kat-1960641226300145239.groovy</location>
+		</link>
+		<link>
+			<name>kat-3236531845467223545.groovy</name>
+			<type>1</type>
+			<location>C:/Users/asus/AppData/Local/Temp/Katalon/Web Services/kat-3236531845467223545.groovy</location>
+		</link>
+	</linkedResources>
+	<filteredResources>
+		<filter>
+			<id>1707808142614</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1707808142621</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+	</filteredResources>
+</projectDescription>
