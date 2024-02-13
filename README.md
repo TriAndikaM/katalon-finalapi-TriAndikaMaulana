@@ -1,7 +1,7 @@
 # API restful-booker.herokuapp.com/
 
 ## Get All Booking ID
-Pada test case ini akan didapatkan semua Id booking yang ada dengan menggunakan metode request API GET ke https://restful-booker.herokuapp.com/booking. {idbooking} diambil dari global variabel Id booking. 
+Pada test case ini akan didapatkan semua Id booking yang ada dengan menggunakan metode request API GET ke https://restful-booker.herokuapp.com/booking. {idbooking} diambil dari global variabel Idbooking. 
 
 Endpoint: https://restful-booker.herokuapp.com/booking
 
