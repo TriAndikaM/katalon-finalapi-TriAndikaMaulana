@@ -11,7 +11,7 @@ Pada test case ini akan didapatkan detail informasi dari satu id booking menggun
 Endpoint: https://restful-booker.herokuapp.com/booking/${idbooking}
 
 ## Get Token
-Pada test case ini akan didapatkan token autentikasi dari https://restful-booker.herokuapp.com/auth dan menyimpanya pada global varibael {token}.
+Pada test case ini akan didapatkan token autentikasi dari https://restful-booker.herokuapp.com/auth dan menyimpanya pada global variabel {token}.
 
 Endpoint: https://restful-booker.herokuapp.com/auth
 
